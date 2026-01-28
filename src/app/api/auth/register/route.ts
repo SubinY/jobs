@@ -2,6 +2,7 @@
 import { getDataStore } from "@/lib/store";
 import { createId, hashPassword } from "@/lib/crypto";
 import { createUserSession, setSessionCookie } from "@/lib/auth";
+import type { Role, User } from "@/lib/types";
 
 export async function POST(request: Request) {
   const { inviteCode, email, password } = await request.json();
@@ -22,11 +23,11 @@ export async function POST(request: Request) {
   }
 
   const passwordHash = await hashPassword(String(password));
-  const user = {
+  const user: User = {
     id: createId(),
     email: String(email).trim(),
     passwordHash,
-    role: "user",
+    role: "user" as Role,
     entitled: false,
     createdAt: new Date().toISOString(),
   };

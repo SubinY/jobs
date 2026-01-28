@@ -6,6 +6,6 @@ export default {
   dialect: "postgresql",
   strict: true,
   dbCredentials: {
-    connectionString: process.env.DATABASE_URL!,
+    url: process.env.DATABASE_URL!,
   },
 } satisfies Config;
