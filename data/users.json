@@ -1,0 +1,10 @@
+[
+  {
+    "id": "28245beb-9d98-405b-ad82-190f67db3f10",
+    "email": "admin@shangan.ai",
+    "passwordHash": "$2b$10$kBkFJR5VyWSi1lrlrBBrXeu5zAr7twW6FicFcbAjWqQ7qnvOEFSze",
+    "role": "admin",
+    "entitled": true,
+    "createdAt": "2026-01-28T09:19:05.685Z"
+  }
+]

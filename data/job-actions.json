@@ -1,0 +1,16 @@
+[
+  {
+    "userId": "9807f1d2-2702-4b1d-a4e6-078d22a71859",
+    "jobId": "job-005",
+    "applied": true,
+    "note": "",
+    "updatedAt": "2026-01-28T06:32:15.657Z"
+  },
+  {
+    "userId": "9807f1d2-2702-4b1d-a4e6-078d22a71859",
+    "jobId": "job-002",
+    "applied": true,
+    "note": "",
+    "updatedAt": "2026-01-28T06:32:14.148Z"
+  }
+]

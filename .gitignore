@@ -14,7 +14,7 @@
 /out/
 
 # local data
-/data
+# /data
 
 # production
 /build
